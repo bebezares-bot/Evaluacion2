@@ -1,12 +1,17 @@
 # Evaluacion2 - GraphHopper
 
-Proyecto de geolocalización desarrollado en Python para la Evaluación Parcial N.º 2 de Duoc UC.
+Evaluación Parcial N.º 2 de Duoc UC.
+
+Integrantes: Benjamín Bezares y Manuel Astete.
+
+## Descripción
+Aplicación Python que utiliza GraphHopper para calcular rutas y presentar instrucciones de navegación en español.
 
 ## Funcionalidades
-- Consulta de rutas mediante GraphHopper API.
-- Mensajes e instrucciones de navegación en español.
+- Consulta de rutas mediante API REST.
 - Distancias y tiempos con dos decimales.
-- Salida del programa mediante s o salir.
+- Instrucciones paso a paso en español.
+- Opción de salida mediante "s" o "salir".
 
 ## Requisitos
 - Python 3
@@ -14,10 +19,7 @@ Proyecto de geolocalización desarrollado en Python para la Evaluación Parcial 
 - API Key de GraphHopper
 
 ## Ejecución
-1. Instalar dependencias: pip3 install requests
+1. Instalar requests: pip3 install requests
 2. Ejecutar: python3 graphhopper.py
-3. Ingresar la API Key cuando el programa la solicite.
-4. Introducir el origen y destino.
-
-## Integrantes
-Benjamín Bezares y Manuel Astete
+3. Ingresar la API Key cuando se solicite.
+4. Introducir origen y destino.
